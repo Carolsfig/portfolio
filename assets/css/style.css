@@ -95,8 +95,10 @@ nav a:hover {
     flex-shrink: 0; 
 }
 
-#about p { 
-    flex: 1; 
+.about-text p { 
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 /* Vídeo */
